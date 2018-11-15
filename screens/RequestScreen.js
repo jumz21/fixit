@@ -9,8 +9,10 @@ import {
   View,
 } from 'react-native';
 import { WebBrowser } from 'expo';
+import FlatList from '../components/FlatList';
 
 import { MonoText } from '../components/StyledText';
+import FlatList from '../components/FlatList';
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
@@ -19,7 +21,7 @@ export default class HomeScreen extends React.Component {
 
   render() {
     return (
-      <View style={styles.container}>
+      /*<View style={styles.container}>
         <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
           <View style={styles.welcomeContainer}>
             <Image
@@ -60,7 +62,10 @@ export default class HomeScreen extends React.Component {
             <MonoText style={styles.codeHighlightText}>navigation/MainTabNavigator.js</MonoText>
           </View>
         </View>
-      </View>
+      </View>*/
+
+      <FlatList></FlatList>
+
     );
   }
 
