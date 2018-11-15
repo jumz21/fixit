@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { View, Text, FlatList, ActivityIndicator } from "react-native";
 import { List, ListItem, SearchBar } from "react-native-elements";
 
-class FlatList extends Component {
+class FlatListItem extends Component {
     constructor(props) {
       super(props);
   
@@ -125,5 +125,5 @@ class FlatList extends Component {
     }
   }
   
-  export default FlatList;
+  export default FlatListItem;
   
